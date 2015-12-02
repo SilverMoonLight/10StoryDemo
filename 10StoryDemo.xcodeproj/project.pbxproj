@@ -15,6 +15,7 @@
 		FCCB74E71BF90EB50088F3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCB74E51BF90EB50088F3EE /* LaunchScreen.storyboard */; };
 		FCCB74F21BF90EB50088F3EE /* _0StoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB74F11BF90EB50088F3EE /* _0StoryDemoTests.m */; };
 		FCCB74FD1BF90EB50088F3EE /* _0StoryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB74FC1BF90EB50088F3EE /* _0StoryDemoUITests.m */; };
+		FCCB750C1BF913900088F3EE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB750B1BF913900088F3EE /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FCCB74F81BF90EB50088F3EE /* 10StoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 10StoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCB74FC1BF90EB50088F3EE /* _0StoryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0StoryDemoUITests.m; sourceTree = "<group>"; };
 		FCCB74FE1BF90EB50088F3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCB750A1BF913900088F3EE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FCCB750B1BF913900088F3EE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				FCCB74E31BF90EB50088F3EE /* Assets.xcassets */,
 				FCCB74E51BF90EB50088F3EE /* LaunchScreen.storyboard */,
 				FCCB74E81BF90EB50088F3EE /* Info.plist */,
+				FCCB750A1BF913900088F3EE /* SecondViewController.h */,
+				FCCB750B1BF913900088F3EE /* SecondViewController.m */,
 				FCCB74D71BF90EB50088F3EE /* Supporting Files */,
 			);
 			path = 10StoryDemo;
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCB750C1BF913900088F3EE /* SecondViewController.m in Sources */,
 				FCCB74DF1BF90EB50088F3EE /* ViewController.m in Sources */,
 				FCCB74DC1BF90EB50088F3EE /* AppDelegate.m in Sources */,
 				FCCB74D91BF90EB50088F3EE /* main.m in Sources */,
